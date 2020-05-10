@@ -1,0 +1,41 @@
+<Window x:Class="NowHealthCheck.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NowHealthCheck"
+        mc:Ignorable="d"
+        Title="Nordstrom Health Check" Height="538.295" Width="543.648" ResizeMode="NoResize" Background="#FF7B7C80">
+    <Grid Margin="0,152,4,1">
+        <Image HorizontalAlignment="Left" Height="100" Margin="197,-124,0,0" VerticalAlignment="Top" Width="100" Source="Resources/NORD.jpg" Grid.ColumnSpan="2"/>
+        <Label Content="Checking internet..." HorizontalAlignment="Left" Grid.Column="0" Margin="10,10,0,0" Grid.Row="0" VerticalAlignment="Top" Height="26" Width="248" />
+        <Label x:Name="lblConnection" Content="" Grid.Column="1" FontWeight="Bold" HorizontalContentAlignment="Right" Margin="15,10,5,0" VerticalAlignment="Top" Height="26"/>
+        <Label x:Name="lblInternal" Content="" Grid.Column="1" FontWeight="Bold" HorizontalContentAlignment="Right" Margin="24,36,5,0" VerticalAlignment="Top" Height="26"/>
+        <Label x:Name="lblExternal" Content="" Grid.Column="1" FontWeight="Bold" HorizontalContentAlignment="Right" Margin="24,62,5,0" VerticalAlignment="Top" Height="26" Grid.RowSpan="2"/>
+        <Label Content="Nordnet connectivity..." HorizontalAlignment="Left" Grid.Column="0" Margin="48,36,0,0" VerticalAlignment="Top" Height="26" Width="210"/>
+        <Label Content="Google connectivity..." HorizontalAlignment="Left" Grid.Column="0" Margin="48,58,0,0" VerticalAlignment="Top" Height="26" Width="224" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnGo" Content="Go!" Click="BtnGo_Click" Grid.Column="1" HorizontalAlignment="Left" Height="32" Margin="208,8,0,-15" Grid.Row="4" VerticalAlignment="Top" Width="49"/>
+        <Label Content="McAfee Installed: " HorizontalAlignment="Left" Margin="14,103,0,0" Grid.Row="1" VerticalAlignment="Top" Visibility="Hidden" Height="26" Width="104"/>
+        <Grid HorizontalAlignment="Left" Height="181" Margin="10,84,0,0" VerticalAlignment="Top" Width="514" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Label Content="Workstation ID | IP Address:" HorizontalAlignment="Left" Grid.Column="0" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="248"/>
+            <Label Content="Build: " HorizontalContentAlignment="Left" Margin="10,36,256,0" VerticalAlignment="Top" Height="26"/>
+            <Label Content="Domain: "  Margin="10,62,256,0" VerticalAlignment="Top" Height="26"/>
+            <Label Content="Model: " HorizontalAlignment="Left" VerticalAlignment="Top" Width="248" Margin="10,88,0,0" Height="26"/>
+            <Label x:Name="lblHostName" Content="" FontWeight="Bold" Margin="263,10,-3,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Height="26"/>
+            <Label x:Name="lblBuild" Content="" FontWeight="Bold" HorizontalAlignment="Left" Margin="265,36,-3,0" VerticalAlignment="Top" Width="252" HorizontalContentAlignment="Right" Height="26"/>
+            <Label x:Name="lblDomain" HorizontalContentAlignment="Right" Content="" FontWeight="Bold" HorizontalAlignment="Left" Margin="275,62,-3,0" VerticalAlignment="Top" Width="242" Height="26"/>
+            <Label x:Name="lblModel" Content="" FontWeight="Bold" HorizontalAlignment="Left" Margin="265,88,-3,0" VerticalAlignment="Top" Width="252" HorizontalContentAlignment="Right" Height="26"/>
+        </Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="86" />
+            <RowDefinition Height="200" />
+            <RowDefinition Height="0" />
+            <RowDefinition Height="1" />
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+    </Grid>
+</Window>

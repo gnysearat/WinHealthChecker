@@ -1,0 +1,13 @@
+Required:
+- Internet Connection 
+ -Internal
+ -External
+- Valid IP Address 
+- Valid Domain 
+- Mcafee Anti-Virus installed 
+- Proxy is working 
+- Valid OU/AD
+
+Optional:
+- (Laptop Specific) Cisco anyconnect is installed
+- Multiple Core Services Running (Ccmexec, NomadBranch, WinRM, Print Spooler, LANMANSERVER)

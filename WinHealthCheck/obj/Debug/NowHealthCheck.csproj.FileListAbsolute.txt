@@ -1,0 +1,15 @@
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\bin\Debug\NormHealthCheck.exe.config
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\bin\Debug\NormHealthCheck.exe
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\bin\Debug\NormHealthCheck.pdb
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\NowHealthCheck.csprojAssemblyReference.cache
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\MainWindow.g.cs
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\App.g.cs
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\NormHealthCheck_MarkupCompile.cache
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\NormHealthCheck_MarkupCompile.lref
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\MainWindow.baml
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\NormHealthCheck.g.resources
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\NormHealthCheck.Properties.Resources.resources
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\NowHealthCheck.csproj.GenerateResource.cache
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\NowHealthCheck.csproj.CoreCompileInputs.cache
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\NormHealthCheck.exe
+C:\Users\qwmq\source\repos\NowHealthCheck\NowHealthCheck\obj\Debug\NormHealthCheck.pdb
